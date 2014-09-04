@@ -20,5 +20,5 @@ Extra Features of my fitness tracker:
 	
 	2) Show different types of excercise options
 	
-	3) Maybe a supplement page for healthy boosts getting healthy and losing weight
+	3) Maybe a supplement page for healthy boosts for getting healthy and losing weight
 
