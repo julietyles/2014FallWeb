@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>Exercise</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>@import "myStyle.css"</style>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		
+	</head>		
+		
+
+	<body id = "body">
+
+	<ul class="nav nav-pills">
+ 		 <li><a href="home.html">Home</a></li>
+  		 <li><a href="fooddiary.html">Food Diary</a></li>
+  		 <li  class="active"><a href="exercise.html">Exercise</a></li>
+ 	 	 <li><a href="progress.html">Progress</a></li>
+ 	 	  	 	 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="tips.html">
+      			Extra tips <span class="caret"></span></a>
+    			<ul class="dropdown-menu" role="menu">
+    				<li><a href= "foodnetwork.com">Recipes</a></li>
+    				<li><a href= "bodybuilders.com">Exercises</a></li>
+    				<li><a href= "shredz.com">Supplements</a></li>		
+    			</ul>
+  			</li>		 
+	</ul>
+	
+	
+	<h1 id="h1">Exercise</h1>
+	
+		<h2>Todays Date:</h2>
+		<h3 id="demo"></h3>
+		<script>document.getElementById("demo").innerHTML = Date();</script>
+		
+	<h2>Calories Burned:</h2>
+	<div class="row">
+  		<div class="col-lg-6">
+    		<div class="input-group">
+      			<input type="text" class="form-control" placeholder="Input Number">
+     			<span class="input-group-btn">
+        			<button class="btn btn-default" type="button">Submit</button>
+     	 		</span>
+    		</div><!-- /input-group -->
+  		</div><!-- /.col-lg-6 -->
+	</div><!-- /.row -->
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

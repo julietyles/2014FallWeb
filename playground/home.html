@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>@import"myStyle.css"</style>
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		
+	</head>		
+		
+
+	<body id = "body">
+
+	<ul class="nav nav-pills">
+ 		 <li class="active"><a href="home.html">Home</a></li>
+  		 <li><a href="fooddiary.html">Food Diary</a></li>
+  		 <li><a href="exercise.html">Exercise</a></li>
+ 	 	 <li><a href="progress.html">Progress</a></li>
+ 	 	 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="tips.html">
+      		Extra tips <span class="caret"></span></a>
+    			<ul class="dropdown-menu" role="menu">
+    				<li><a href= "foodnetwork.com">Recipes</a></li>
+    				<li><a href= "bodybuilders.com">Exercises</a></li>
+    				<li><a href= "shredz.com">Supplements</a></li>
+    			</ul>
+  			</li>	 
+	</ul>
+	
+	
+	<h1 id="h1">Welcome to My Fitness Tracker</h1>
+	<p>
+		You'll be able to keep track of your calorie intake and calories burned daily!
+		There's also extra tips for staying healthy!
+	</p>	
+		<h2 id="h2">At first you'll answer some key questions about yourself:</h2>
+	
+		<form action="information.html" method="get">	
+		<h3>Name:</h3>
+			<div class="input-group">
+  				<input type="text" class="form-control" placeholder="Username">
+			</div>
+			
+		<h3>Password:</h3>
+			<div class="input-group">
+  				<input type="text" class="form-control">
+			</div>
+				
+				
+		<h3>Gender:</h3>
+		 <div class="col-lg-6">
+    		<div class="input-group">
+      			<span class="input-group-addon">
+        			<input type="radio">
+     			 </span>
+      			<input type="text" class="form-control" placeholder="Male" >
+    			</div><!-- /input-group -->
+  			</div><!-- /.col-lg-6 -->
+		
+ 		<div class="col-lg-6">
+    		<div class="input-group">
+      			<span class="input-group-addon">
+       			 <input type="radio">
+      			</span>
+      		<input type="text" class="form-control" placeholder="Female">
+    	</div><!-- /input-group -->
+  	</div><!-- /.col-lg-6 -->
+		
+			<h3>Weight:</h3>
+				<div class="input-group">
+  					<input type="text" class="form-control">
+ 					 <span class="input-group-addon">lbs</span>
+				</div>
+		
+			<h3>Goal Weight:</h3>
+				<div class="input-group">
+  					<input type="text" class="form-control">
+ 				    <span class="input-group-addon">lbs</span>
+				</div>
+				
+			<button type="submit" value="Submit">Submit</button>
+   			<button type="reset" value="Reset">Reset</button>
+			</form>
+				
+	<p>(After the first time of enetering it will remember the information)</p>
+		
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
